@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+<header></header>
+    <div class="main">
+        <div class="register">
+
+            
+            <form onsubmit="return validate()" action="welcom.html"  id="register">
+            <input type="text" name="fname" id="name" placeholder="First Name"  >
+            <br>
+            <input type="text" name="lname" id="lname" placeholder="Last Name"  >
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email" >
+            <br> 
+
+<div class="box">
+            <tr>
+                <td>
+                    <select>
+                        <option value="+91">+91</option> 
+                        <option value="+213">+213</option>
+                        <option value="+376">+376</option>
+                        <option value="+244">+244</option>
+                        <option value="+1264">+1264</option>
+                        <option value="+1268">+1268</option>
+                        <option value="+54">+54</option>
+                        <option value="+374">+374</option>
+                        <option value="+297">+297</option>
+                        <option value="+61">+61</option>
+                        <option value="+43">+43</option>   
+                    </select>
+                </td>
+
+                <td>
+                    <input type="text" id="phone"   maxlength="10"  name="phone" pattern="[1-9][0-9]{9}" required> 
+                </td>
+            </tr>
+        </div>
+
+            
+            <input type="password" id="password"  placeholder="Enter password" required>
+            <input type="radio" name="gender" id="male">
+            &nbsp;
+            <span>Male</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female">
+            &nbsp;
+            <span >Female</span><br><br><br>
+            <input type="submit" value="Register" name="submit" id="submit">
+            </form>
+
+        </div>
+
+    </div>
+    <footer></footer>
+<script src="script.js"></script>
+</body>
+</html>

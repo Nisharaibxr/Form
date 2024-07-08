@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    background-image: url(image/img.jpg);
+    background-size: 90%;
+    background-origin: content-box;
+    background-size: cover;
+
+}
+div.main{
+    width: 400px;
+    margin: 80px auto 0px auto;
+    
+}
+
+
+
+div.register{
+    background-color: rgba(0, 0, 0, 0.53);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.207);
+    box-shadow: 2px, 2px, 15px rgba(0,0,0,0.3);
+    color: #fff;
+
+}
+
+form#register{
+    margin:40px;
+    
+
+}
+
+
+input#name{
+    width:300px ;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+input#lname{
+    width:300px ;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+input#email{
+    width:300px ;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+input#phone{
+    width:250px ;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+input#password{
+    width:300px ;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+input#submit{
+    width: 320px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(4, 171, 243, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+
+.box{
+    display: flex;
+}
+
+
+.box td{
+    height: 10px;
+}
+
+#submit{
+    width:300px ;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250, 100, 0, 0.8);
+    cursor: pointer;
+    border:1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+span{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+select{
+    width: 70px ;
+    height: 32px;
+    padding: 7px;
+    border-radius: 3px;
+    margin-right: 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    
+}
+
+header{
+    border:40px solid black;
+    
+}
+
+
+footer{
+    border:40px solid black;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    div.main {
+        width: 100%;
+        margin: 20px 0;
+    }
+    input, select {
+        width: 90%;
+    }
+    input#submit {
+        width: 90%;
+    }
+}
